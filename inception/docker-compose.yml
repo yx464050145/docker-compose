@@ -1,0 +1,9 @@
+version: '2'
+services:
+  inception:
+    image: 4
+    volumes:
+      - ./conf:/conf
+    restart: always
+    ports:
+      - "6669:6669"
